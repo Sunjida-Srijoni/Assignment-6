@@ -156,7 +156,7 @@ const handleLoadTube = async (categoryId) => {
                       
                     <div class="inline-flex gap-5">
                        <div class="avatar">
-                            <div class="w-14 rounded-full border-2 border-blue-600 h-fit">
+                            <div class="w-14 rounded-full  h-fit">
                                 <img class="" src=${tube.authors[0].profile_picture}>
     
                             </div>
