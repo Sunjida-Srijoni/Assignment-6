@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        .font-family{
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-family">
+    <header class="">
+        <section class="ml-20 mr-20">
+            <div class="navbar bg-base-100 px-0 md:px-14 mt-5 ">
+                <div class="navbar-start">
+
+                    <img src="Logo.png" alt="">
+                  
+                  <!-- <a class="btn btn-ghost normal-case text-xl">daisyUI</a> -->
+                </div>
+                <div class="navbar-center lg:flex">
+                    <button onclick="dataSort()" class="btn bg-[#25252533] text-xs md:text-lg  text-black">Sort by view</button>
+                </div>
+                <div class="navbar-end">
+                  <a href="blog.html"><button  class="btn bg-[#FF1F3D] text-xs md:text-lg text-white ">Blog</button>
+                </div></a>
+              </div>
+
+              <div class="mt-5">
+                <hr class="h-px bg-gray-600 w-11/12 mx-auto">
+              </div>
+        </section>
+
+        <section>
+            <div class="tab-container w-full">
+                <div class="tabs tabs p-5 w-96 mx-auto text-center flex justify-center" id="tab-container">
+
+                </div>
+
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-2 lg:px-10" id="card-container">
+           
+
+
+        </div>
+
+        
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
